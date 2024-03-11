@@ -6,6 +6,6 @@ class Program
     {
         Console.WriteLine("Hello, World!");
         int zmienna = 0;
-        
+        String zmienna2 = "Modyfikacja2";
     }
 }
