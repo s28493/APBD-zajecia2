@@ -8,8 +8,8 @@ class Program
     {
         Console.WriteLine("Hello, World!");
         int zmienna = 0;
-        String zmienna2 = "Modyfikacja2";
-        String zmienna3 = "MODYFIKACJA3AHA";
+        String zmieniono = "Modyfikacja2";
+        String zmieniono2 = "MODYFIKACJA3AHA";
         int[] aha = { 1,1,2,4,3,2};
         Console.WriteLine(Zadanie3(aha));
         Console.WriteLine(Zadanie4(aha));
