@@ -10,8 +10,9 @@ class Program
         int zmienna = 0;
         String zmienna2 = "Modyfikacja2";
         String zmienna3 = "MODYFIKACJA3AHA";
-        int[] aha = { 1,1,2 };
+        int[] aha = { 1,1,2,4,3,2};
         Console.WriteLine(Zadanie3(aha));
+        Console.WriteLine(Zadanie4(aha));
     }
 
     public static double Zadanie3(int[] tablica)
@@ -24,4 +25,19 @@ class Program
         
         return suma / tablica.Length;
     }
+
+    public static int Zadanie4(int[] tab)
+    {
+        int max = tab[1];
+        foreach (int value in tab)
+        {
+            if (max < value)
+            {
+                max = value;
+            }
+        }
+
+        return max;
+    }
+    
 }
